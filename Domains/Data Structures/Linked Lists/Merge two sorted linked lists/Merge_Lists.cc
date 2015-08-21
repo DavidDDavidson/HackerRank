@@ -11,38 +11,18 @@ Node* MergeLists(Node *headA, Node* headB)
 {
   // This is a "method-only" submission.
   // You only need to complete this method ]
-  Node temp;
-  Node new_head;
-  /* Case: one list has no elements */
-  if (headA == NULL){
-    return headB;
-  }
-  if (headB == NULL){
-    return headA;
-  }
-  /* Case: Both lists have one or more elements */
-  /* Choosing the new head - the head of the merged list */
-  if (headA->data >= headB->data)
+  /* End recursion at NULL */
+  if (headA == NULL) return headB;
+  if (headB == NULL) return headA;
+  /* return the next smallest node */
+  if (headA->data < headB->data)
   {
-    new_head = headB;
-    headB = headB->next;
+    headA->next = MergeLists(headA->next, headB);
+    return headA;
   }
   else
   {
-    new_head = headA;
-    headA = headA->next;
+    headB->next = MergeLists(headA, headB->next);
+    return headB;
   }
-  /* linking algorithm for determining node order for merged list */
-  while(headA != NULL || headB != NULL)
-  {
-    if(headA->data <= headB->data)
-    {
-
-    }
-    else if (headA->data > headB->data)
-    {
-
-    }
-  }
-  return new_head;
 }
