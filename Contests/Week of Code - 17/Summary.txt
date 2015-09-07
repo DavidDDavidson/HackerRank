@@ -1,0 +1,7 @@
+This was the first time-limited contest i've done ever. It was quite intense and
+I know now how to prepare better. I should also keep in mind that these Week of
+Code contests put a large emphasis on runtime analysis, so when writing these
+programs on the next week of code, I'll attempt to make each program as
+efficient as possible.
+
+- David
