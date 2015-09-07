@@ -10,8 +10,6 @@
 */
 int CompareLists(Node *headA, Node* headB)
 {
-  // This is a "method-only" submission.
-  // You only need to complete this method
   if(headA == NULL && headB == NULL)
   {
     return 1;

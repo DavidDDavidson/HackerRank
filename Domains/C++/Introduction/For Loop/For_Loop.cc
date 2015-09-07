@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    // Complete the code.
     int a, b;
     scanf("%d %d", &a, &b);
     for(int n = a; n <= b; n++)

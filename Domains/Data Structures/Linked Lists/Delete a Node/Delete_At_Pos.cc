@@ -1,6 +1,6 @@
 /*
-  Delete Node at a given position in a linked list 
-  Node is defined as 
+  Delete Node at a given position in a linked list
+  Node is defined as
   struct Node
   {
      int data;
@@ -9,7 +9,6 @@
 */
 Node* Delete(Node *head, int position)
 {
-  // Complete this method
   if(head != NULL){
     //delete the head node
     //and reroute the head pointer to the next node

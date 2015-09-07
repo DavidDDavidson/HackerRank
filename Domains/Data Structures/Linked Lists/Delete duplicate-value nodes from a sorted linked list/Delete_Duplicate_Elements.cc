@@ -9,8 +9,6 @@
 */
 Node* RemoveDuplicates(Node *head)
 {
-  // This is a "method-only" submission.
-  // You only need to complete this method.
   Node* temp = head;
   /* If the next node is valid. Otherwise finish. Will end at the end of the
   linked list */

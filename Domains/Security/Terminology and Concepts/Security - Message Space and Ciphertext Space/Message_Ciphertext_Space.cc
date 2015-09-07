@@ -7,7 +7,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     string s = "";
     cin >> s;
     if (1 <= s.size() && s.size() <= 10)

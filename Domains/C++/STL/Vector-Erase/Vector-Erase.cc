@@ -7,8 +7,6 @@ using namespace std;
 
 
 int main() {
-  /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-
   /*The first line of the input contains an integer N.The next line contains N
   space separated integers.The third line contains a single integer x,
   denoting the position of an element that should be removed from the vector.

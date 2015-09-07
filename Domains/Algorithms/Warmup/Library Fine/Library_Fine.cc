@@ -7,7 +7,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int exp_day, exp_month, exp_year, act_day, act_month, act_year;
     cin >> act_day >> act_month >> act_year >> exp_day >> exp_month >> exp_year;
     /* Before or on the return date */

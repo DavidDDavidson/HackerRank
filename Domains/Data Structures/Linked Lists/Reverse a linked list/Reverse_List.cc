@@ -10,7 +10,6 @@
 */
 Node* Reverse(Node *head)
 {
-  // Complete this method
   Node previous = NULL; // Node reversed in previous iteration
   Node current = head;  // Node to be reversed in current iteration
   while(current != NULL)

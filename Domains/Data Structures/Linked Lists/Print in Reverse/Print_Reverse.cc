@@ -1,7 +1,7 @@
 /*
   Print elements of a linked list in reverse order as standard output
   head pointer could be NULL as well for empty list
-  Node is defined as 
+  Node is defined as
   struct Node
   {
      int data;
@@ -10,8 +10,6 @@
 */
 void ReversePrint(Node *head)
 {
-  // This is a "method-only" submission. 
-  // You only need to complete this method. 
   if (head != NULL){
     if (head->next != NULL){
       //if the next node isn't NULL, continue to traverse until NULL terminating element is found

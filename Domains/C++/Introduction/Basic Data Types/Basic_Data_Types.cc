@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    // Complete the code.
     int integer = 0;
     long long_integer = 1;
     long long long_long_integer = 2;

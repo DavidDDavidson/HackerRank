@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 void update(int *a,int *b) {
-    // Complete this function
     *a = *a + *b;
     /*change the value at a (which is outside the scope) as described */
     *b = abs(*a -*b -*b);

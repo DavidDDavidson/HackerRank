@@ -9,8 +9,6 @@
 */
 Node* MergeLists(Node *headA, Node* headB)
 {
-  // This is a "method-only" submission.
-  // You only need to complete this method ]
   /* End recursion at NULL */
   if (headA == NULL) return headB;
   if (headB == NULL) return headA;

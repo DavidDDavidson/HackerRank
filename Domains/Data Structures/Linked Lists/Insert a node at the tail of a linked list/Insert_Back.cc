@@ -1,7 +1,7 @@
 /*
-  Insert Node at the end of a linked list 
+  Insert Node at the end of a linked list
   head pointer input could be NULL as well for empty list
-  Node is defined as 
+  Node is defined as
   struct Node
   {
      int data;
@@ -10,7 +10,6 @@
 */
 Node* Insert(Node *head,int data)
 {
-    // Complete this method
     if (head != NULL){
         struct Node *newHead = head;
         struct Node *newNode = (struct Node*) malloc(sizeof(struct Node));

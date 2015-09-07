@@ -9,9 +9,6 @@
 */
 int FindMergeNode(Node *headA, Node *headB)
 {
-    // Complete this function
-    // Do not write the main method.
-
     /* Compare every node of each list to each other. Runtime: O(nm) where
     n = |List1|, m = |List2| */
 

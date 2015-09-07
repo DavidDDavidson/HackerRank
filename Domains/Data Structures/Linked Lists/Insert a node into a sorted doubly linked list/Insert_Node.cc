@@ -11,8 +11,6 @@
 */
 Node* SortedInsert(Node *head,int data)
 {
-    // Complete this function
-   // Do not write the main method.
   Node* new_node = new Node;
   new_node->data = data;
   new_node->prev = NULL;

@@ -10,9 +10,6 @@
 */
 int HasCycle(Node* head)
 {
-   // Complete this function
-   // Do not write the main method
-
   /********************************************/
   /* Based on Floyd's Cycle-Finding Algorithm */
   /********************************************/

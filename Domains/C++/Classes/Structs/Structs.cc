@@ -5,10 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-/*
-    add code for struct here.
-*/
-
 struct Student {
   //fields (undeclared) and can be filled later when the struct is created
   int age;

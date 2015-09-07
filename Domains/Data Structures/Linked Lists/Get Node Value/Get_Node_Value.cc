@@ -10,8 +10,6 @@
 */
 int GetNode(Node *head,int positionFromTail)
 {
-  // This is a "method-only" submission.
-  // You only need to complete this method.
   int n = 0;
   Node* temp = head;
   while (temp != NULL)

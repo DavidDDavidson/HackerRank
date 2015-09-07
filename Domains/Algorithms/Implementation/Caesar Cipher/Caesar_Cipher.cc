@@ -7,7 +7,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     string s;
     int n, k, temp;
     cin >> n >> s >> k;

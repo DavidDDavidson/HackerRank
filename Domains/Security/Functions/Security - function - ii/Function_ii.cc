@@ -1,6 +1,3 @@
-/*
- * Complete the function below.
- */
 int function(int x) {
   if(1 <= x && x <= 1000)
   {

@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    // Complete the code.
     int n;
     scanf("%d", &n);
     if(n == 1)

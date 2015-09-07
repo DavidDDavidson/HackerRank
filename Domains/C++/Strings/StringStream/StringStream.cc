@@ -4,7 +4,6 @@
 using namespace std;
 
 vector<int> parseInts(string str) {
-   // Complete this function
    vector<int> parsed;
    stringstream ss(str);
    char comma;

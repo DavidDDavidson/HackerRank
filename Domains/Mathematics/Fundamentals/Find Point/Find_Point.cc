@@ -7,7 +7,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int t, px, py, qx, qy, delta_x, delta_y;
     cin >> t;
     while(t > 0)
