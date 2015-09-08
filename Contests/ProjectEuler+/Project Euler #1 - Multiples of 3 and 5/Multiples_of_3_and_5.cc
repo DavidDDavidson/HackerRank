@@ -5,43 +5,25 @@
 #include <algorithm>
 using namespace std;
 
-// Times out on the website (despite a correct answer not on the web?)
-// Seems to be due to runtime, not quite sure what is wrong here
+/* first order summation formula */
+long long int summation (long long int N){
+  return ((N * (N + 1)) / 2);
+};
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    long long int t, n;
-    cin >> t;
-    if(1 <= t && t <= 100000)
+    long long int T, N;
+    cin >> T;
+    while(T--)
     {
-      while (t > 0)
-      {
-        cin >> n;
-        if (1 <= n && n <= 10000000000)
-        {
-          long long int sum = 0;
-          /* Find all the multiples of 3 */
-          long long int mult_three = 3;
-          long long int multiplier = 2;
-          while(mult_three < n)
-          {
-            sum += mult_three;
-            mult_three = 3 * multiplier;
-            multiplier++;
-          }
-          long long int mult_five = 5;
-          multiplier = 2;
-          while(mult_five < n)
-          {
-            /* ignore multiples of 5 and 3 since theyve already been added*/
-            if (mult_five % 3 != 0) sum += mult_five;
-            mult_five = 5 * multiplier;
-            multiplier++;
-          }
-          cout << sum << "\n";
-        }
-        t--;
-      }
+      cin >> N;
+      /* Prompt asks for multiples below N */
+      N -= 1;
+      /* the sum of all multiples of 3 from 3 to N
+      added to
+      the sum of all multiples of 5 from 5 to N
+      subtracted by
+      the sum of all multiples of 15 from 15 to N*/
+      cout << (summation(N / 3) * 3) + (summation(N / 5) * 5) - (summation(N / 15) * 15) << "\n";
     }
     return 0;
 }
