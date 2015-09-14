@@ -1,4 +1,4 @@
-### HackerRank Challenge Solutions
+# HackerRank Challenge Solutions
 
     This repository is my personal collection of solutions to the various
     programming challenges on HackerRank.com. These solutions are not official
