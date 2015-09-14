@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:HackerRank Challenge Solutions}
+### HackerRank Challenge Solutions
 
     This repository is my personal collection of solutions to the various
     programming challenges on HackerRank.com. These solutions are not official
@@ -15,6 +13,3 @@
     paradigms like functional programming." - HackerRank.com
 
     For more information visit https://www.hackerrank.com/faq
-
-  <tabTrigger>readme</tabTrigger>
-</snippet>
