@@ -5,7 +5,7 @@
     solutions. This repository is solely dedicated to display my programming
     style and capabilities.  
 
-    ## What is HackerRank?
+## What is HackerRank?
 
     "HackerRank is a site for hackers from all over the world to solve
     programming problems in different CS domains like algorithms, machine
