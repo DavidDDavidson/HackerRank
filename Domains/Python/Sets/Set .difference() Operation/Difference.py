@@ -1,0 +1,5 @@
+useless = raw_input()
+English = set(raw_input().split())
+useless = raw_input()
+French = set(raw_input().split())
+print len(English.difference(French))
