@@ -1,7 +1,7 @@
 # HackerRank
 
 This repository is my personal collection of solutions to the various
-programming challenges on the website HackerRank.com. These solutions are not
+programming challenges on the website **HackerRank.com**. These solutions are not
 official solutions and shouldn't be treated or used as such. This repository is
 solely dedicated to showcasing my programming capabilities and style. In
 addition, I use this repository as a resource for myself.
@@ -23,10 +23,10 @@ solutions.
 
 ### What is HackerRank?
 
-"HackerRank is a site for hackers from all over the world to solve
+_"HackerRank is a site for hackers from all over the world to solve
 programming problems in different CS domains like algorithms, machine
 learning and artificial intelligence, and to excel in different programming
-paradigms like functional programming." - HackerRank.com
+paradigms like functional programming."_ -- **HackerRank.com**
 
 For more information visit the official
 [HackerRank](https://www.hackerrank.com/faq) website.
